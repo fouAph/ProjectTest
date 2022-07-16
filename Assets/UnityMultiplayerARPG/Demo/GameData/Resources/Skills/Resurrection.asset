@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16f341434d3e7f42b0626bfd4380cea, type: 3}
+  m_Name: Resurrection
+  m_EditorClassIdentifier: 
+  title: Resurrection
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: 9517660ed74fd244e8a51993b900a6f2, type: 3}
+  maxLevel: 1
+  moveSpeedRateWhileUsingSkill: 0
+  castEffects:
+    effects: []
+  canBeInterruptedWhileCasting: 0
+  castDuration:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  availableWeapons: []
+  consumeMp:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  coolDownDuration:
+    baseAmount: 60
+    amountIncreaseEachLevel: 0
+  requirement:
+    characterLevel:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    attributeAmounts: []
+    skillLevels: []
+  resurrectHpRate: 0.1
+  resurrectMpRate: 0.1
+  resurrectStaminaRate: 0.1
+  resurrectFoodRate: 0.1
+  resurrectWaterRate: 0.1
+  buffDistance:
+    baseAmount: 3
+    amountIncreaseEachLevel: 0
+  buff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 2
+      amountIncreaseEachLevel: 0.25
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        armor: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        armor: 0
+        testStats: 0
+    increaseStatsRate:
+      baseStats:
+        hp: 0
+        mp: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        armor: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        armor: 0
+        testStats: 0
+    increaseAttributes: []
+    increaseAttributesRate: []
+    increaseResistances: []
+    increaseArmors: []
+    increaseDamages: []
+    damageOverTimes: []
+    disallowMove: 0
+    disallowAttack: 0
+    disallowUseSkill: 0
+    disallowUseItem: 0
+    isHide: 0
+    muteFootstepSound: 0
+    effects:
+    - {fileID: 114626029094176218, guid: 477eb745a76326c44a4467222ca2fbbb, type: 2}

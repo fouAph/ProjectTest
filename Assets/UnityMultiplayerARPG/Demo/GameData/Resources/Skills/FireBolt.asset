@@ -1,0 +1,384 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7000b16da17f19d44ac30148edd738d0, type: 3}
+  m_Name: FireBolt
+  m_EditorClassIdentifier: 
+  id: 
+  title: Fire Bolt
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: f565d673d30d2d5418f387b17cfdd82c, type: 3}
+  maxLevel: 10
+  moveSpeedRateWhileUsingSkill: 0
+  skillCastEffects: []
+  castDuration:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  canBeInterruptedWhileCasting: 0
+  damageHitEffects:
+  - {fileID: 114395511358828242, guid: da484fbdc56d4934dba2a847422e5dc9, type: 3}
+  requireShield: 0
+  availableWeapons: []
+  availableArmors: []
+  availableVehicles: []
+  consumeHp:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  consumeMp:
+    baseAmount: 2
+    amountIncreaseEachLevel: 0
+  consumeStamina:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  coolDownDuration:
+    baseAmount: 5
+    amountIncreaseEachLevel: 0
+  requirement:
+    characterLevel:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    attributeAmounts: []
+    skillLevels: []
+  requireItems: []
+  requireAmmoType: 0
+  requireAmmoAmount: 0
+  requireAmmos: []
+  skillType: 0
+  skillAttackType: 1
+  damageInfo:
+    damageType: 1
+    hitOnlySelectedTarget: 0
+    hitDistance: 1
+    hitFov: 90
+    missileDistance: 10
+    missileSpeed: 25
+    missileDamageEntity: {fileID: 114101601413944088, guid: e5cd6d9e632c8af4baceb095f263288d,
+      type: 3}
+    projectileEffect: {fileID: 0}
+    pierceThroughEntities: 0
+    impactEffects: {fileID: 0}
+    throwForce: 0
+    throwableLifeTime: 0
+    throwableDamageEntity: {fileID: 0}
+    customDamageInfo: {fileID: 0}
+  damageAmount:
+    damageElement: {fileID: 11400000, guid: 3afa55aee773f47438e6f7f3a03cd0b9, type: 2}
+    amount:
+      baseAmount:
+        min: 4
+        max: 6
+      amountIncreaseEachLevel:
+        min: 2
+        max: 2
+  effectivenessAttributes:
+  - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+    effectiveness: 0.1
+  weaponDamageInflictions: []
+  additionalDamageAmounts: []
+  increaseDamageAmountsWithBuffs: 0
+  isDebuff: 1
+  debuff:
+    duration:
+      baseAmount: 10
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+    increaseStatsRate:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+    increaseAttributes: []
+    increaseAttributesRate: []
+    increaseResistances: []
+    increaseArmors: []
+    increaseDamages: []
+    damageOverTimes:
+    - damageElement: {fileID: 11400000, guid: 3afa55aee773f47438e6f7f3a03cd0b9, type: 2}
+      amount:
+        baseAmount:
+          min: 5
+          max: 5
+        amountIncreaseEachLevel:
+          min: 0
+          max: 0
+    disallowMove: 0
+    disallowAttack: 0
+    disallowUseSkill: 0
+    disallowUseItem: 0
+    isHide: 0
+    muteFootstepSound: 0
+    effects:
+    - {fileID: 114978955299650166, guid: 28d0f22e964f57945b26f1fefece6096, type: 3}
+  harvestType: 0
+  harvestDamageAmount:
+    baseAmount:
+      min: 0
+      max: 0
+    amountIncreaseEachLevel:
+      min: 0
+      max: 0
+  skillBuffType: 0
+  buffDistance:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  buff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+    increaseStatsRate:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        testStats: 0
+    increaseAttributes: []
+    increaseAttributesRate: []
+    increaseResistances: []
+    increaseArmors: []
+    increaseDamages: []
+    damageOverTimes: []
+    disallowMove: 0
+    disallowAttack: 0
+    disallowUseSkill: 0
+    disallowUseItem: 0
+    isHide: 0
+    muteFootstepSound: 0
+    effects: []
+  summon:
+    monsterEntity: {fileID: 0}
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    amountEachTime:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    maxStack:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    level:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+  mount:
+    mountEntity: {fileID: 0}
+  itemCraft:
+    craftingItem: {fileID: 0}
+    amount: 0
+    requireGold: 0
+    craftRequirements: []

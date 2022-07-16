@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 039180bdd4d969240b36b91061f34afe, type: 3}
+  m_Name: Int
+  m_EditorClassIdentifier: 
+  title: Intelligence
+  description: 
+  icon: {fileID: 0}
+  statsIncreaseEachLevel:
+    hp: 0
+    mp: 2
+    accuracy: 0
+    evasion: 0
+    criHitRate: 0
+    criDmgRate: 0
+    moveSpeed: 0
+    atkSpeed: 0
+    weightLimit: 0
